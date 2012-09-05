@@ -3,6 +3,9 @@ require 'minitest/autorun'
 require 'minitest/pride'
 
 class TestFixnum < MiniTest::Unit::TestCase
+  def test_number_is_equal
+    assert_equal 1, 1
+  end
   def test_number_is_not_equal
     refute_equal 2, 1
   end
